@@ -1,0 +1,37 @@
+запускаем в win + r
+"C:\Program Files\Git\bin\bash.exe"
+
+git --version
+git config --global user.name "Глеб Васильев"
+git config --global user.email "tnixxx@yandex.ru"
+
+git remote add origin <URL>
+git remote -v
+
+
+………...
+
+Чтобы проверить настройки, введите:
+
+git config --list
+Полезные команды для начала работы в Git Bash
+pwd — показать текущий каталог;
+
+ls — вывести список файлов и папок в текущем каталоге;
+
+cd <путь> — перейти в другую папку (например, cd /c/Users/ВашеИмя/Projects);
+
+git init — создать новый Git‑репозиторий в текущей папке;
+
+git clone <URL> — клонировать существующий репозиторий.
+
+Полезные команды после подключения
+git fetch — получить данные из удалённого репозитория без слияния.
+
+git pull — получить и объединить изменения с текущей веткой.
+
+git push — отправить локальные коммиты на сервер.
+
+git remote show origin — подробная информация о подключении origin.
+
+git branch -u origin/main — настроить отслеживание удалённой ветки (если нужно).
